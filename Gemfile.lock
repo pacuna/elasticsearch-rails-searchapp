@@ -137,6 +137,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    redis (3.3.2)
     ref (2.0.0)
     spring (2.0.0)
       activesupport (>= 4.2)
@@ -185,6 +186,7 @@ DEPENDENCIES
   mocha
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
+  redis (~> 3.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
