@@ -60,3 +60,4 @@ gem 'oj'
 gem 'pry', group: 'development'
 
 gem 'sidekiq'
+gem 'elasticsearch-dsl', git: 'git://github.com/elastic/elasticsearch-ruby.git'
