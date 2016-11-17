@@ -58,3 +58,5 @@ gem 'elasticsearch-rails', git: 'git://github.com/elasticsearch/elasticsearch-ra
 
 gem 'oj'
 gem 'pry', group: 'development'
+
+gem 'sidekiq'
