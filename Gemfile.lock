@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/elastic/elasticsearch-ruby.git
+  revision: 274b6ea0f77be1b590d60ca23b16ebccacd5c86b
+  specs:
+    elasticsearch-api (1.0.18)
+      multi_json
+    elasticsearch-dsl (0.1.4)
+    elasticsearch-transport (1.0.18)
+      faraday
+      multi_json
+
+GIT
   remote: git://github.com/elasticsearch/elasticsearch-rails.git
   revision: 15761247f3e99654bda946a178e50b5365414b59
   specs:
@@ -15,11 +26,6 @@ GIT
     elasticsearch (1.0.18)
       elasticsearch-api (= 1.0.18)
       elasticsearch-transport (= 1.0.18)
-    elasticsearch-api (1.0.18)
-      multi_json
-    elasticsearch-transport (1.0.18)
-      faraday
-      multi_json
 
 GEM
   remote: https://rubygems.org/
@@ -192,6 +198,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   elasticsearch!
+  elasticsearch-dsl!
   elasticsearch-model!
   elasticsearch-rails!
   jbuilder (~> 2.5)
